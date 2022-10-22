@@ -31,4 +31,4 @@
 
 ---
 
-> feat. @makesomesparks
+> feat. [@makesomesparks](https://github.com/makesomesparks)
