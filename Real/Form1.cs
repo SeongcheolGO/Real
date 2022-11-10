@@ -72,6 +72,9 @@ namespace Real
       File.WriteAllText(DataFileName, UITextBox.Text);
     }
 
-    
-  }
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
 }

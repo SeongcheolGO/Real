@@ -34,17 +34,19 @@
       // 
       // UITextBox
       // 
-      this.UITextBox.Location = new System.Drawing.Point(26, 24);
+      this.UITextBox.Location = new System.Drawing.Point(29, 28);
+      this.UITextBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
       this.UITextBox.Multiline = true;
       this.UITextBox.Name = "UITextBox";
-      this.UITextBox.Size = new System.Drawing.Size(748, 351);
+      this.UITextBox.Size = new System.Drawing.Size(822, 409);
       this.UITextBox.TabIndex = 0;
       // 
       // UISaveButton
       // 
-      this.UISaveButton.Location = new System.Drawing.Point(637, 394);
+      this.UISaveButton.Location = new System.Drawing.Point(701, 460);
+      this.UISaveButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
       this.UISaveButton.Name = "UISaveButton";
-      this.UISaveButton.Size = new System.Drawing.Size(137, 44);
+      this.UISaveButton.Size = new System.Drawing.Size(151, 51);
       this.UISaveButton.TabIndex = 1;
       this.UISaveButton.Text = "button1";
       this.UISaveButton.UseVisualStyleBackColor = true;
@@ -52,13 +54,15 @@
       // 
       // Form1
       // 
-      this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
+      this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 21F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-      this.ClientSize = new System.Drawing.Size(800, 450);
+      this.ClientSize = new System.Drawing.Size(880, 525);
       this.Controls.Add(this.UISaveButton);
       this.Controls.Add(this.UITextBox);
+      this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
       this.Name = "Form1";
       this.Text = "Form1";
+      this.Load += new System.EventHandler(this.Form1_Load);
       this.ResumeLayout(false);
       this.PerformLayout();
 
