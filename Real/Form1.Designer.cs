@@ -30,6 +30,8 @@
         {
       this.UITextBox = new System.Windows.Forms.TextBox();
       this.UISaveButton = new System.Windows.Forms.Button();
+      this.RecieveButton = new System.Windows.Forms.Button();
+      this.button2 = new System.Windows.Forms.Button();
       this.SuspendLayout();
       // 
       // UITextBox
@@ -52,11 +54,32 @@
       this.UISaveButton.UseVisualStyleBackColor = true;
       this.UISaveButton.Click += new System.EventHandler(this.UISaveButton_Click);
       // 
+      // RecieveButton
+      // 
+      this.RecieveButton.Location = new System.Drawing.Point(486, 460);
+      this.RecieveButton.Name = "RecieveButton";
+      this.RecieveButton.Size = new System.Drawing.Size(143, 51);
+      this.RecieveButton.TabIndex = 2;
+      this.RecieveButton.Text = "Receive";
+      this.RecieveButton.UseVisualStyleBackColor = true;
+      this.RecieveButton.Click += new System.EventHandler(this.RecieveButton_Click);
+      // 
+      // button2
+      // 
+      this.button2.Location = new System.Drawing.Point(267, 527);
+      this.button2.Name = "button2";
+      this.button2.Size = new System.Drawing.Size(75, 23);
+      this.button2.TabIndex = 3;
+      this.button2.Text = "button2";
+      this.button2.UseVisualStyleBackColor = true;
+      // 
       // Form1
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 21F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
       this.ClientSize = new System.Drawing.Size(880, 525);
+      this.Controls.Add(this.button2);
+      this.Controls.Add(this.RecieveButton);
       this.Controls.Add(this.UISaveButton);
       this.Controls.Add(this.UITextBox);
       this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -72,6 +95,8 @@
 
     private System.Windows.Forms.TextBox UITextBox;
     private System.Windows.Forms.Button UISaveButton;
-  }
+        private System.Windows.Forms.Button RecieveButton;
+        private System.Windows.Forms.Button button2;
+    }
 }
 

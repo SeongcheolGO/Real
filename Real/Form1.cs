@@ -20,6 +20,8 @@ namespace Real
      * Constructor
      */
 
+    Utils util = new Utils();
+
     public Form1()
     {
       InitializeComponent();
@@ -76,5 +78,10 @@ namespace Real
         {
 
         }
+
+    private void RecieveButton_Click(object sender, EventArgs e)
+    {
+      util.GetUserList();
     }
+  }
 }
