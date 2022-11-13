@@ -68,8 +68,9 @@ namespace Real
 
     public List<User> GetUserList() //리스트 제네릭 사용한거 확인 하기 
     {
-      User user = new User();
-      MessageBox.Show(String.Format("{0}-{1}", user.userList[0].number, user.userList[0].name));
+      
+      MessageBox.Show("어려움");
+
       return null;
     }
 
