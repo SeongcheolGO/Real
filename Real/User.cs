@@ -14,30 +14,31 @@ namespace Real
     public string name { get; set; }
     public string directory { get; set; }
     
-    //public User[] userList = {
-    //    new User(){number = "001", name = "고성철" , directory = String.Format(@"C:\PDApractice")},
-    //   new User(){number = "002", name = "성철고" , directory = String.Format(@"C:\PDApractice")},
-    //  new User(){number = "003", name = "철성고" , directory = String.Format(@"C:\PDApractice")},
-    //  new User(){number = "004", name = "성고철" , directory = String.Format(@"C:\PDApractice")}
-    //};
 
-   List<User> user = new List<User>()
+   public static List<User> user1 = new List<User>
   {
     new User {number = "001" , name = "고성철", directory = String.Format(@"C:\PDApractice")},
-    new User {number = "002" , name = "성철", directory = String.Format(@"C:\PDApractice")},
-    new User {number = "003" , name = "철성", directory = String.Format(@"C:\PDApractice")},
-    new User {number = "004" , name = "철성고", directory = String.Format(@"C:\PDApractice")}
+    new User {number = "002" , name = "고성", directory = String.Format(@"C:\PDApractice")},
+    new User {number = "003" , name = "성철", directory = String.Format(@"C:\PDApractice")},
+    new User {number = "004" , name = "성철고", directory = String.Format(@"C:\PDApractice")}
 
   };
 
+
+
+    /// public User[] userList = {
+    //   new User(){number = "001", name = "고성철" , directory = String.Format(@"C:\PDApractice")},
+    //   new User(){number = "002", name = "성철고" , directory = String.Format(@"C:\PDApractice")},
+    //   new User(){number = "003", name = "철성고" , directory = String.Format(@"C:\PDApractice")},
+    //    new User(){number = "004", name = "성고철" , directory = String.Format(@"C:\PDApractice")}
+    //    };
+
+    // return user;
     //List<User> user = new List<User>();
     //user.Add(new User() { number = "001", name = "고성철", .directory = String.Format(@"C:\PDApractice")} );
 
 
-
-
-
-   // User[] arr = user.ToArray(); 
+    // User[] arr = user.ToArray(); 
 
 
 

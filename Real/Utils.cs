@@ -68,8 +68,25 @@ namespace Real
 
     public List<User> GetUserList() //리스트 제네릭 사용한거 확인 하기 
     {
+      try
+      {
+
+        IEnumerable<User> userList =
+        from User in User.user1
+        where User.name.Length > 2
+        select User;
+
       
-      MessageBox.Show("어려움");
+        foreach (User getlist in userList)
+        {
+          MessageBox.Show(String.Format("{0}-{1}", getlist.number, getlist.name));
+        }
+      
+      }catch
+      {
+        MessageBox.Show("3글자 이상이 없습니다.");
+      }
+
 
       return null;
     }
